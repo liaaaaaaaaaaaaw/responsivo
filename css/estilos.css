@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(101, 201, 235);
+    color: black;
+    margin: 5px;
+    padding: 10px;
+}
+header{
+    background-color: lightcoral;
+    color:black;
+    padding: 10px;
+    margin: 10px;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color:lightgreen;
+        color: blue;
+        margin: 5px;
+        padding: 10px;
+    }
+    header{
+        background-color: plum;
+        color:navy;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 500px){
+    body{
+        background-color:darkgreen;
+        color:white;
+        margin: 5px;
+        padding: 10px;
+    }
+    header{
+        background-color:firebrick;
+        color:navy;
+        padding: 10px;
+        margin: 10px;
+    }
+}
